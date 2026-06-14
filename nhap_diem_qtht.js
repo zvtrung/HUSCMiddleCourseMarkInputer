@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HUSC - Nhập điểm tự động từ Excel
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  Nhập điểm tự động từ file Excel
 // @author       Your Name
 // @match        https://teacher.husc.edu.vn/Teaching/MiddleCourseMarkInput/*
