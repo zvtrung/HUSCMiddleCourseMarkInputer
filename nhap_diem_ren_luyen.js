@@ -354,7 +354,7 @@
                 const studentId = row[studentIdx];
                 const score = row[scoreIdx];
                 if (studentId && score !== undefined && score !== '') {
-                    const sid = studentId.toString().trim();
+                    const sid = studentId.toString().trim().toUpperCase(); // fix lỗi, cho in hoa mã sinh viên
                     const s = score.toString().trim();
                     const num = parseFloat(s);
                     if (!isNaN(num) && num >= 0 && num <= 100) {
